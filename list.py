@@ -26,8 +26,6 @@ price = [
     '17000'
 ]
 
-print("================= Food menu =================")
-
 merger = [
     list(i)
     for i in zip(food, price)
