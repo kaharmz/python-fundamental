@@ -1,7 +1,7 @@
 
 squares = []
 for i in range(1, 52):
-    #menmasukan angka dari perulangan ke list dengan pemangkatan 2
+    #inserts the number from the loop to a list with a power of 2
     squares.append(i ** 2)
 
 #slicing list with looping
