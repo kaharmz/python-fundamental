@@ -44,7 +44,7 @@ del used[5:11]
 
 popularity = [list(i) for i in zip(programming_languages, used)]
 
-#3 popular in the world
+#Five popular in the world
 for j in popularity:
     print(j)
 
