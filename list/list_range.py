@@ -28,7 +28,7 @@ programming_languages = [
     'Php'
 ]
 
-used = ['99%', '80', '70', '60', '50', '40', '30', '20', '10']
+used = ['99%', '80%', '70%', '60%', '50%', '40%', '30%', '20%', '10%']
 popularity = [list(i) for i in zip(programming_languages, used)]
 
 #3 popular in the world
