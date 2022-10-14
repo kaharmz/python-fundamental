@@ -28,12 +28,18 @@ programming_languages = [
     'Php'
 ]
 
+#add new programming languages to list
+programming_languages[4] = 'Dart'
+
 used = ['99%', '80%', '70%', '60%', '50%', '40%', '30%', '20%', '10%', '55%', '65%']
+
+#add new used precentage
+used[4] = '64%'
 
 popularity = [list(i) for i in zip(programming_languages, used)]
 
 #3 popular in the world
-for j in popularity[0:3]:
+for j in popularity[0:5]:
     print(j)
 
 
