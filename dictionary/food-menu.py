@@ -40,13 +40,6 @@ else:
 
 
 
-#pesanan = [makanan, minuman, jumlah_makanan, jumlah_minuman]
-
-
-
-
-
-
 
 
 
