@@ -25,7 +25,9 @@ drink_amount = int(input('Drink amount: '))
 
 #compare key in dictionary with input
 if food in menus['foods'] and drink in menus['drinks']:
+    #access value foods
     food_price = menus['foods'][food]
+    #access value drink
     drink_price = menus['drink'][drink]
     total_food = food_price * food_amount
     total_drink = drink_price * drink_amount
